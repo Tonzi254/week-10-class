@@ -14,7 +14,7 @@ spec:
   spec:
     containers:
       - name: devopsg1-k8s-deployment
-        image: gcr.io/<PROJECT_ID>/devopsg1:1.0.0
+        image: tonzi/wk10-app:1.0.0
         ports:
           - containerPort: 3000
         env:
